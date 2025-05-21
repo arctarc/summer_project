@@ -1,0 +1,71 @@
+The literature review for our project should do these three main things:
+	1. Contextualise the problem - Airborne transmission in indoor environments.
+	2. Explain the modelling approach - The classic and revised Wells-Riley models.
+	3. Justify the technical and design choices - Why are we developing a web-app, why are we using Streamlit, etc.
+
+Scope / What subjects to read into:
+
+	1. Introduction to Airborne Disease Transmission Indoors
+		• Mechanisms of transmission: Droplet nuclei, aerosols, IRPs.
+		• Importance and impact: Case studies (e.g., measles, COVID-19), super-spreader events.
+		• Environmental influences: Ventilation, humidity, temperature, room occupancy.
+
+	2. Epidemiological Modelling of Airborne Infection
+		• Basic models: SIR, SEIR, etc. - strengths and limitations.
+		• Wells-Riley model: Origins (Riley et al., 1978), assumptions, mathematical formulation.
+		• Use-cases: Past applications in real-world settings, particularly in indoor spaces (e.g., classrooms, offices).
+	Key sources to consult:
+		• Papers applying Wells-Riley in COVID-era building assessments.
+		• Texts or papers comparing SEIR and Wells-Riley.
+
+	3. Enhancements to Wells-Riley: Alexander Edwards (2024)
+		• Motivations for enhancement: Why deterministic models fall short.
+		• Overview of modifications: Randomness, heterogeneity in infectiousness/susceptibility, time-dependent effects.
+		• Implications: More realistic simulations, especially for dynamic or small-population environments.
+	This part should critically evaluate how each modification improves the models accuracy and potential computational challenges or assumptions introduced.
+	
+	4. Tools for Visualising Airborne Risk
+		• Why tools are needed: Public engagement, policy-making, real-time assessments.
+		• Examples of existing tools: WHO ARIA tool (scope, interface, limitations), SAMHE project (audience, use-case, interactivity).
+		• Design considerations: What features make a tool credible, understandable, and useful?
+	Key sources to consult:
+		• Case studies of user-facing scientific apps.
+	
+	5. End-users
+	Looking into end-users will help shape the UI, decide on the level of explanation required and what we should output.
+	We need to define our user-groups: policymakers, school admins, clinicians, building managers, the general public?
+	Analyse user-guides or feedback on similar tools and watch webinars or talks where real-world users speak about their needs or frustrations.
+
+	6. Technologies for Building Analytical Web Applications
+		• Overview of relevant frameworks: Libraries including Streamlit, Dash, Flask.
+		• Why did we pick Streamlit?
+		• Limitations and considerations.
+	Key sources to consult:
+		• Streamlit documentation and tutorials.
+		• Papers or blogs detailing science app development.
+	
+	7. Gaps in Current Tools and Rationale for the App
+		• Are current tools lacking adaptability, stochastic realism, or usability?
+		• Why would implementing the revised model add value?
+		• How does the tool position itself between academic modelling and public engagement?
+
+When Searching for Papers, I Should Look into These Areas:
+
+	• Indoor air quality and ventilation (building science, environmental engineering)
+	• Infectious disease modelling (epidemiology, public health)
+	• Stochastic modelling in epidemics (mathematical biology)
+	• Digital public health tools (informatics, HCI)
+	• Visualisation and usability in science apps (data science, UX for public health)
+
+
+I should be targeting roughly between 18 to 24 high-quality papers.
+Section	Target Papers
+Indoor airborne transmission	4–6
+Wells-Riley model (original + uses)	3–5
+Edwards (2024) & stochastic extensions	2–3 (main + citations)
+Tools like ARIA / SAMHE	3–4
+Web-based analytical tools (general)	2–3
+Streamlit / app-building techniques	2–3
+
+
+Consensus AI is a good starting point, however it may miss very new, or very niche papers. It is also less effective when locating implementation details, like coding tools and app design choices.
