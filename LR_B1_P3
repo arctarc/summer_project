@@ -1,0 +1,79 @@
+Pohlker, 2021, Respiratory aerosols and droplets: A comprehensive review on airborne disease transmission mechanisms.
+
+Overview and Purpose.
+
+This review aims to showcase the microphysical, chemical, and dynamical properties of the respiratory particles involved in the transmission of airborne disease. The goal of this review is to combine knowledge across several disciplines, like medicine, aerosol science, and physics, to develop our understand and learn how to control the spread of diseases like COVID-19, influenza and tuberculosis.
+
+Section one: Introduction.
+
+	• Something that I am sure we are well aware of at this moment - respiratory diseases spread through particles containing the pathogen that are emitted by infected people.
+	• These emissions span a wide particle size distribution (PSD), which is a fancy way of saying that these particles come in a vast array of varying sizes, from submicron aerosols to large droplets.
+	• Given the varying nature of these different sized particles, disease transmission can therefore occur near field (close proximity) and far field (shared air environments).
+	• There is a serious need for us to understand the mechanisms behind transmission to guide our interventions techniques, like masking, ventilation and air filtration.
+
+Section two: Definitions, Nomenclature, and Key Parameters.
+
+	A. Terminological Clarifications
+		• Common terms used to describe infectious particles like 'aerosols', 'droplets', and 'droplet nuclei', are almost always used inconsistently by members of the Science community across multiple fields.
+		• Authors propose harmonising terminology so that there is better and more consistent communication across disciplines.
+	B. Properties of Respiratory Particles
+		1. Emission Rates and Concentrations:
+			• Often, activities like coughing or speaking will emit more particles than simply breathing.
+		2. Size Distributions (NSD & VSD):
+			• There is a vast array of particle sizes, suggesting that there are distinct particle generation mechanisms.
+		3. Pathogen Distribution:
+			• Pathogens are embedded within a subset of carrier particles.
+			• Smaller particles will sometimes carry a disproportionately higher pathogen load.
+		4. Viability Decay:
+			• Pathogen viability decays exponentially in the air, being affected by the humidity, temperature and radiation of the environment along with the presence of other pollutants.
+	C. Hygroscopicity and Shrinkage
+		• After particles are exhaled, they rapidly shrink due to the water within them evaporating. Drier particles will typically have a diameter that is four times smaller than wet particles.
+		• Hygroscopic growth factors and kinetic evaporation models can be used to describe the changes in a particles size.
+	D. Formation Mechanisms and Sites
+		• As was suggested earlier, there must be distinct particle generation mechanisms that lead to the varying particle sizes we find. Different respiratory sites and actions generation the array of particle sites:
+			• Bronchioles (film burst)
+			• Larynx (vibration)
+			• Oral cavity (tongue, lips)
+		• Aerosol-generating procedures (AGPs) in clinics were found to be less significant than mundane actions like coughing or speaking.
+
+Section three: Multimodal Size Distributions and Parametrisation
+
+	A. Literature Review
+		• Collected PSD (particle size) data from various different studies using instruments such as SMPS, APS, and OPS.
+		• The authors found inconsistencies due to instrumentation and methodology.
+	B. Parametrisation Scheme
+		• Developed a five-mode log-normal model (B1, B2, LT, O1, O2) to represent the entire PSD (array of sizes) from less than 10 micrometres to greater than 1000 micrometres.
+		• Each of these modes are linked to distinct anatomical sources:
+			• B1, B2 refer to bronchiolar origin.
+			• LT refer to the larynx/trachea.
+			• O1, O2 refer to the oral structures.
+	C. Activity-Specific PSDs
+		• Breathing: This activity is bimodal and results in a low total output of particles.
+		• Speaking/Singing: This activity is pentamodal, with strong output in LT and Oral modes.
+		• Coughing/Sneezing: With these activities we find a higher volume of infectious particles and there is also a wide range of particle sizes.
+	D. Emission Rates
+		• Interestingly, and contrary to what was mentioned earlier, speaking emits more infectious particles than coughing in the most relevant airborne size range, which concerns those particles smaller than five micrometres.
+		• What's even more dangerous about speaking, is that emissions can be sustained for long periods of time (over an entire conversation).
+	E. Multimodal Relevance to Transmission
+		• Modes B2 and LT align with high airborne transmissibility.
+		• Smaller particles have the ability to remain airborne for longer periods of time and they can even penetrate deeper into a persons respiratory tract.
+
+Section four: Summary and Conclusions
+
+	A) General Findings
+		1. This (literature review?) clarified key terminology and highlighted gaps in our current understanding of the ways in which airborne disease spreads.
+		2. Developed a robust multimodal parametrisation linking aerosol physics to infectious disease transmission.
+	B) COVID-19 Specific Observations
+		• SARS-CoV-2 RNA was detected across a wide range of particle sizes, from 10 nanometres to 20 micrometres (?), often with bimodal distributions.
+		• Speaking plays a vital role in the way that the pandemic spread due to the high emission rates in transmission-relevant size modes.
+		• Findings would support the use of high-efficiency masks as effective tools for mitigating the spread of COVID-19, these masks include FFP2 and N95.
+	C) Research Needs
+		• This work recommends that we need more comprehensive data across the entire PSD (particle size) spectrum, with special focus on the smallest and largest sizes.
+		• Systematic study of the mode ratios and inter-individual variability.
+		• It is essential that we bridge the gap between disciplines so that we can create effective intervention and effectively shape public health policies.
+
+Significance and Applications
+
+	• This works acts a foundational framework for the control of airborne infections.
+	• It informs public health guidance on things such as mask design, the limits for room occupancy and ventilation standards.
+The generalised PSD model can be applied directly in risk assessments and epidemiological modelling, including those using Wells-Riley-based approaches.
