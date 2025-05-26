@@ -1,0 +1,95 @@
+Poudel, 2021, Impact of Covid-19 on health-related quality of life of patients: A structured review
+
+Summary
+
+This review investigates how COVID-19 (C19) has impacted the health-related quality of life (HRQoL) of confirmed patients and those that are suspected to have been infected. Given the fact that C19 can cause a wide range of problems, including some short and long term problems, this study was designed to understand the way in which C19 affects the physical, mental, emotional, and social functioning of patients during acute stages of the disease (≤ four weeks) and the long COVID stage (> four weeks). At the time that this review was written and released, no other work had been done towards building a comprehensive summary of the HRQoL impacts on C19 sufferers, particularly a summary that separates short-term and long-term effects - therefore, this review aimed to fill that gap in our knowledge.
+
+Introduction and Background
+
+C19 was declared a global pandemic by the WHO in March 2020. Initially the virus was only associated with respiratory symptoms, however it quickly became clear that it also affects multiple organs and systems, leading to complications like heart failure, brain fog, depression, fatigue, and of course reduced lung function. These complications do not only affect patients with pre-existing health issues, they can even effect healthy young adults. A considerable amount of these effects will even persist beyond the acute phase of illness, with 11-24% of patients experiencing symptoms for more than three months - something that we now refer to as long COVID.
+HRQoL refers to a persons physical health, and their mental health to, over time. It is a multidimensional concept that is used in the public health industry to measure the broader impacts of disease. There are generic tools that can be used to measure HRQoL like SF-36, SF-6D, EQ-5D, and disease-specific tools such as SGRQ and CCQ. The C19 pandemic was nothing like we have seen before in the modern day, brining about social measures like lockdowns and quarantines, which subsequently affected mental health and social wellbeing, further highlighting the need to build a comprehensive HRQoL assessment.
+
+Research Aims and Questions
+
+This review outlines several questions that it looks to answer:
+	1. How much does C19 impact HRQoL?
+	2. What are the long term impacts?
+	3. Are there any differences between countries?
+	4. What factors (e.g., age, gender, illness severity) influence HRQoL outcomes?
+	5. What are the limitations of current studies, and what future research will be needed as a result?
+
+Methods
+
+This review was conducted following PRISMA guidelines. The authors searched through repositories like PubMed, Medline, and Scopus, using terms like "Corona", "Covid", "SARS-CoV-2", and "quality of life". They used filters to limit the results to original English-language articles that were published between December 2019 and January 25th 2021. Additional grey literature was found from major public health bodies like WHO and CDC.
+Studies were only eligible for the review if they assessed HRQoL in C19 confirmed and suspected patients of all genders and ages using validated measurement tools. The studies would also have to clearly distinguish between acute COVID and long COVID. There were 12 studies that met this criteria. Data from each of these studies were extracted regarding variables like sample size, HRQoL tools used, country, patient demographics, and whether patients were hospitalised.
+
+Results
+
+Of the 12 studies that were used:
+	• 11 were observational studies and one was experimental.
+	• Five of them used SF-36, another five used EQ-5D-5L, and the remaining used disease-specific tools (SGRQ, CCQ, PROMIS).
+	• Three of the studies focused on Acute COVID whilst 11 focused on Long COVID (some studies covered both).
+
+SF-36 Results:
+This tool assessed eight domains, for example, physical functioning and mental health, on a scale of 0-100 (higher scores indicating better health). Among the Acute COVID patients, the average HRQoL scores were pretty low (mean = 60.3). Among Long COVID patients, HRQoL varied quite widely (mean = 60.4-86.4), often depending on the age of the patient and potential comorbidities. For instance, younger patients without any additional comorbidities had higher scores (better health).
+In Acute COVID cases, bodily pain was least affected but physical functioning was the most impacted factor. In Long COVID studies, these results varied. Mental health components generally scored lower than physical health ones, particularly patients with prolonged symptoms. In general, males tended to have higher scores than females.
+
+Factors that negatively affected HRQoL included:
+	• Older ages (≥ 60)
+	• Presence of comorbidities
+	• Female sex
+	• Longer hospital stays
+	• Poor lung function
+	• Overweight or obesity
+	• Lower social class and education
+
+EQ-5D-5L Results:
+This tool is used to evaluate five dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression) and generates a single utility index (0 = death, 1 = perfect health). Scores among Long COVID patients ranged from 0.612 (Iran) to 0.714 (UK). Patients in high-income countries had better scores than those low and middle income countries.
+
+The worst-reported problems varied by country:
+	• Mobility: highest in Iran (46.7%)
+	• Self-care: highest in UK (16%)
+	• Pain/discomfort and usual activities: highest in Belgium (>67%)
+	• Anxiety/depression: highest in Iran (58.7%)
+
+EQ VAS (Visual Analogue Scale) scores ranged from 50.7 (Belgium) to 63 (Germany). Patients who were younger, male, employed, or had fewer comorbidities reported better scores. ICU patients rather obviously had worse outcomes that those in general wards.
+
+SGRQ Results:
+This disease-specific tool showed significant improvement in patients' scores between hospital discharge and fifteen days post-discharge (Italy). However, in contrast, a German study that focused only on severe patients found that poor scores continued even eight weeks after discharge.
+
+CCQ Results:
+This questionnaire showed Long COVID patients had major issues with symptoms and physical activities, especially shortness of breath during exercise.
+
+PROMIS Results:
+In a US study, 72.7% of patients still had symptoms even 35 days after discharge - these symptoms included fatigue (55%), muscle pain (50.6%), shortness of breath (45.3%), and cough (41.8%). Older adults and women were more likely to report these persistent issues and low scores across multiple dimensions, including physical and mental health.
+
+Discussion
+
+The review found that HRQoL score is significantly affected in both Acute and Long COVID patients. Although in some examples improvements were found overtime, many patients, especially those that are elderly, female, admitted to ICU, or had comorbidities, did not return to baseline health even after two months post-discharge.
+Scores for patients with C19 were much lower than scores from the general public during the pandemic. Scores using EQ-5D-5L were lower than those found in general population studies based in China and Morocco. Compared to healthy individuals, C19 patients endured much higher rates of pain, anxiety, and physical limitations.
+There were also clear differences between countries: high-income countries like the UK and Norway reported higher scores than a middle-income country like Iran. This difference couldn't be explained by age or severity, suggesting healthcare systems played a role.
+
+Key Risk Factors for Reduced HRQoL:
+	• Older age
+	• Female sex
+	• Hospitalisation (especially ICU)
+	• Comorbidities
+	• Low socioeconomic status
+	• Lack of physical activity
+
+Limitations:
+	• Only English-language and peer-reviewed studies were included.
+	• Some studies not only included confirmed patients, but suspected ones.
+	• No quality assessment was done on the studies.
+	• HRQoL impacts on children and patients that weren't hospitalised were under-researched.
+	• There was not a standard scoring method across studies.
+
+Conclusion
+
+COVID-19, an airborne disease, significantly impacts a persons health-related quality of life, especially during the early Acute phase, but symptoms and other impairments continued well into the Long COVID stage more often then not. Patients who were most affected were older, female, severely ill, and from lower-income or resource-poor backgrounds. Even after believed recovery and subsequent discharge, many patients continued to report fatigue, shortness of breath, and poor overall health for weeks or even months. These symptoms impact their ability to function, work and even maintain social relationships.
+
+There is an urgent need for more research into COVID, and airborne diseases, that:
+	• Covers children and adolescents,
+	• Examines non-hospitalised cases,
+	• Tracks patients beyond 12 weeks,
+Uses consistent and standardised HRQoL tools.
