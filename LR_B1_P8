@@ -1,0 +1,46 @@
+Ho, 2021, "Modeling airborne pathogen transport and transmission risks of SARS-CoV-2"
+
+Summary
+
+Ho et al. present a comprehensive computational study into the airborne transmission of SARS-CoV-2 (SC2) via respiratory aerosols, aiming to model pathogen dispersion and infection risk from expiratory events like coughing, sneezing, breathing, and talking. The authors' work is pushed by the real danger that smaller aerosols can remain airborne for long periods of time, posing a real infection risk beyond the traditional two metres social-distancing guideline, that is based on larger droplets.
+
+Expiratory Events and Aerosol Physics
+
+Coughing, sneezing, and other expiratory actions, eject thousands of droplets that range in sizes from 1-1000 micrometres, with initial jet velocities up to 25m/s. Large droplets will drop quickly to the ground, however more alarmingly, microdroplets, those that are under 10 micrometres, can remain suspended for long periods of time and follow air streams, travelling to distances that can exceed six feet. Talking and breathing can also release droplets, however these are smaller, fewer in numbers, and have lower initial velocities, however, given the continuous nature of talking or breathing, there is actually an increased likelihood of transmission, this is amplified in enclosed and poorly ventilated spaces.
+
+Objectives and Modeling Strategy
+
+The authors developed an integrated model that combines computational fluid dynamics (CFD) and infection probability modelling. CFD simulations of vapor plumes are used to estimate spatial-temporal pathogen concentrations. These simulations are linked with probabilistic infection models that are based on parameters such as viral load, deposition fraction in lungs, aerosol viability, and inhalation rates. The ultimate goal was to measure how face coverings and the airflow conditions, like how windy it is, alter exposure and subsequently, infection risks.
+
+We're going to skip how they modelled everything, what their implementation looked like and what sort of assumptions were made. It is quite complex and probably not relevant, though a summary of all this can be found in the relevant ChatGPT project folder.
+
+Results: Cough Dynamics, Wind, and Distancing
+
+CFD simulations under either quiescent (still air, no ventilation) and ventilated conditions revealed that:
+	• Quiescent conditions - Exposure drops sharply with distance; a six foot separation between individuals reduces exposure by two orders of magnitude.
+	• The direction of wind greatly influences exposure:
+		○ Downwind increased exposure as airflow confines the plume.
+		○ Upwind/crosswind significantly reduces or eliminates exposure beyond three/six feet, depending on the wind speed.
+		○ Increasing wind speed will either enhance dilution, or increase downwind exposure, depending on the receptor placement.
+Ultimately, the findings conform with social distancing and its benefits.
+
+Face Coverings: Masks and Shields
+
+Simulations showcased that face masks reduced forward plume velocity from ~25m/s to less than four m/s. The vapour that is expelled disperses more slowly and rises due to buoyancy, with a ~10-fold reduction in exposure at one foot. Smaller aerosols may still escape through the mask, but the reduced momentum and delayed arrival significantly lowers the risk of transmission.
+
+Proper face shields, being impermeable unlike masks, prevent forward propagation altogether. However, the vapor may be trapped inside the shield for a short amount of time. Combining masks and shields greatly limits aerosol escape, but it may increase the concentrations of pathogen-laden aerosols near the source for a short period of time, subsequently posing a risk to anyone who moves into that space during that period.
+
+Infection Probability and Uncertainty Analysis
+
+Using the simulated vapour concentrations, the study calculated infection probabilities. At one foot, infection probability reached 50% in just 0.1s and at six foot it took 7s to reach the same probability.
+
+Key parameters affecting infection probability (via stepwise regression) were:
+	• Viral load (most influential factor),
+	• Vapor concentration and aerosol viability,
+	• Infectivity rate, deposition fraction, and inhalation rate.
+
+Conclusions and Recommendations
+
+The study confirms that:
+	• Distancing (equal to or beyond six feet, ventilation, and avoiding downwind positions are critical for reducing risk).
+Masks and shields significantly reduce exposure, but do create these small, short-lived, zones of high risk near the source.
