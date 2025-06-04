@@ -1,0 +1,22 @@
+The SAMHE Project is a massive initiative whereby schools can investigate the air quality in their buildings and classrooms, implementing appropriate mitigation techniques. Whilst the SAMHE Project is not focused on pathogens that are transmitted through the air, they have valuable reasons for addressing air-quality in schools, reasoning that we can adopt when searching for our own end-users.
+
+About SAMHE | https://samhe.org.uk/about
+
+The SAMHE project started back in 2022, it was designed for schools using the help of schools. Over 1000 schools across the UK have received a SAMHE air quality monitor and access to the SAMHE Web App, where they can investigate their schools air quality data, and try curriculum-linked activities.
+Their reason for targeting schools is that fact that poor air quality impacts pupils' health and concentration, affecting their attendance and attainment. Schools that have the SAMHE monitor can interact with real-world data about their indoor environment and see how they can take action to improve the air quality in their classrooms.
+
+Quality of air is important, around 10,000 litres of air passes through each person's body everyday. The SAMHE Project estimates that each child breathes around 7.1 million litres of air at school, or 90,000 bathfuls of air.
+
+Between 2022 and 2024, over 1,300 schools have received a free, high-spec air quality monitor that measures CO2, VOCs, PM, temperature and relative humidity. A snapshot of the SAMHE Project web-app showcases the users ability to create an account and store their data in a library - maybe this is something we could try to adopt, though it seems fairly complex.
+
+Introduction to SAMHE (YouTube Video) | SAMHE Introductory Assembly - short version
+
+Why does air quality matter? Indoor air quality is very important as most of us spend more than 80% of our time indoors.
+Quality of air is important, around 10,000 litres of air passes through each person's body everyday. The SAMHE Project estimates that each child breathes around 7.1 million litres of air at school, or 90,000 bathfuls of air.
+Illnesses associated with poor air quality can lead to a reduced ability to concentrate and perform well during school - this could probably safely be applied to workplaces.
+What affects indoor air quality? Types of activities and the number of people, the number of open doors and windows, and if there are any air cleaning devices or ventilators.
+We can improve indoor air quality by improving ventilation, through opening windows and doors, and using air cleaning devices.
+
+Whistlestop Tour of the SAMHE Web App (YouTube Video) | SAMHE Web App Walkthrough: A whistlestop tour!
+
+Whilst the homepage of the SAMHE Web App gives a brief overview of everything, they have a dedicated page which presents the data - maybe this is something we could incorporate for reduced clutter. Further on from this, you can interact with the figures on the data page, being able to extract basic summary statistics, and finding prompts to read potential patterns in your data. You can also compare various statistics, like CO2 and Temperature - maybe we could also allow our users to view the effects of various temperatures on pathogen activity. Plots/Data can be downloaded onto the users device.

@@ -1,0 +1,72 @@
+World Health Organisation, 2024, "Indoor Airborne Risk Assessment in the Context of SARS-CoV-2 : Description of Airborne Transmission Mechanism and Method to Develop a New Standardized Model for Risk Assessment"
+
+Overview.
+
+The document introduces a standardised method for quantifying the indoor risk of COVID-19 airborne transmission. It describes the mechanisms behind airborne transmission, outlines a new risk assessment model, and explains ventilation and mitigation strategies. The manual is designed to act as a supporting document for the WHO ARIA online tool, developed with technical support from CERN, aiming to guide managers, public health officials, etc..
+
+Background and Rationale.
+
+Historically, air quality has always been considered as an important factor to human health, however the COVID-19 pandemic emphasised just how important it is. Scientific understanding of airborne transmission greatly increased during the pandemic, prompting the WHO and its partners to create a validated, multidisciplinary model for quantifying infection risk indoors.
+Traditionally, ventilation strategies focused on general air quality goals like increasing comfort and removing foul odours, but they were not designed to prevent infections , this shifted given the COVID-19 pandemic.
+
+Key Concepts.
+
+Transmission modes. COVID-19 can spread through direct and indirect contact transmission, direct deposition, and most importantly, airborne transmission/inhalation.
+Airborne transmission. Involves the inhalation of infectious respiratory particles (IRPs) that remain suspended in the air, either at short range (within two meters), or long range (beyond two meters).
+Risk factors. Enclosed spaces with poor ventilation, prolonged exposure, crowding, and activities that increase particle emission, like talking, will of course increase infection risk.
+
+Model Structure: Inhalation Transmission Mechanism.
+
+The WHO model divides the infection risk process into five sequential components:
+
+	1. Emission rate: How many viral particles an infected person emits. This is dependant on their activity, like breathing or coughing, and dependant on their use of masks.
+
+	1. Removal rate: How many viral particles are removed from the space via ventilation, gravitational settling and virus decay.
+
+	1. Exposure: The airborne concentration of virions that a susceptible person comes into contact with. This is effected by factors like proximity to the infector, time spent in the space/room, and the characteristics of the space.
+
+	1. Cumulative (absorbed) dose: The total amount of viable virus that a susceptible person inhales and absorbs.
+
+	1. Probability of infection: A combination of the dose with host-specific factors like immunity status and the infectivity of the pathogen.
+
+Both short-range and lone-range transmission are explicitly modelled.
+
+Modelling Approaches.
+
+Long-range transmission assumes that the room is well-mixed, where the viral concentration is uniformly dispersed throughout the space. Risk is estimated using a mass-balance model that calculates how emission and removal rates change over time.
+Short-range transmission uses a two-stage jet model to simulate the higher concentration and infection risk when your are nearer the infector during, for example, conversation.
+The tool combines both short and long-range risks to give a comprehensive probability of infection.
+
+Model Development and Validation.
+
+The development of the model involved a multi-disciplinary advisory group (ARIA Technical Advisory Group), and used systematic reviews to set the parameters of the model, like viral load distributions, particle emission rates, and the effectiveness of intervention techniques like ventilation and mask wearing.
+The model was validated by comparing the models predictions against previously documented outbreak scenarios. Simulated attack rates closely matched observed attack rates from events like the Skagit Valley Chorale outbreak.
+The model also allows for uncertainty and variability in inputs through a probabilistic framework, acknowledging real-world unpredictability.
+
+Practical Application - WHO ARIA Online Tool.
+
+The ARIA tool is a user-friendly web application based on this model. It lets users input details like:
+
+	• Room size and ventilation rate.
+
+	• Number and behaviour of occupants.
+
+	• Use of masks.
+
+	• Duration of events.
+
+	• Activity type (e.g., talking, exercising).
+
+It not only outputs the probability of infection risk, but it also suggests mitigation measures like increasing ventilation, using masks or even reducing occupancy. The tool is aimed to support decision-making by public health authorities and building managers amongst others. Ideally, the tool, and supporting document, lays the foundation for addressing other airborne diseases.
+
+Important Limitations.
+
+The model only considers airborne transmission/inhalation, it does not concider contact or direct deposition, like droplets landing directly in the eyes or mouth, and it also assumes that the air is well-mixed when modelling long-range transmission.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Details of citation/Link to resource: https://partnersplatform.who.int/aria
+
+The homepage looks good and seems to be practical. There is a menu that runs across the top of the homepage, you can find some supporting text explaining the model, and a video to verbalise everything you are seeing.
+As you go through the tool, it asks you some basic questions about your environment, like the room size and temperature. Each question is fully explained, they developers even include reasons as to why the questions are being asked, and they include some supporting figures too, which is a nice touch.
+In the end, it clearly tells you the infection risk as a percentage, alongside several supporting plots, and some mitigation strategies.

@@ -1,0 +1,39 @@
+Roberts, 2014, "Nine challenges for deterministic epidemic models"
+
+This paper collates and critically examines nine major challenges when using deterministic models to study infectious disease. Whilst deterministic models have long been useful, providing insights into endemic states, populations structures, and herd immunity - the authors still argue that there are critical limitations.
+
+	1. Understanding the Endemic Equilibrium
+	
+	The endemic equilibrium occurs when the rate of new infections are balanced with the rate by which susceptible individuals are replenished - this is either achieved through demographic turnover or waning immunity. This balance is essential for parameter estimations and public health strategy. However, the mathematical structure of this becomes more complex when mixing is non-separable. Additionally, the affect of factors like waning immunity and seasonal transmission (for example school terms) on epidemic oscillations is not yet fully grasped. As such, developing a more complete theory of these interactions remains a major hurdle.
+	
+	2. Assessing When the Balance is Stable 
+
+	Even if we can describe what Endemic Equilibrium is, it is often difficult to establish if a state will remain stable over time. Some mathematical solutions can be found when working with simpler models, however these solutions do not work well in real-world scenarios where members of a given population will have varying ages and the population will have alternating birth rates. The vital challenge remains as such: How can we model fast changing disease dynamics in a slow moving population (regarding births and deaths)? There is no clear answer yet.
+	
+	3. Dealing with Multiple Disease Strains
+
+	Diseases like the Flu or COVID-19 have multiple strains, often these various strains will be circulating among the general public at the same time. Modelling how each strain interacts with one another can be challenging - some strains compete outside the body whilst other compete within. In fact, few strains exist that excel when infection rates are lower. Deterministic models are far too simple and fail to carry the diversity found in the real world.
+	
+	4. Accounting for Changes Based on Infectiousness of the Infector
+
+	Most models, like the traditional Wells-Riley model, treat each individual as being equally infectious and only assess interactions over a fixed period of time. In real-life, the interaction time between individuals is often unknown/uncertain whilst a persons infectivity tends to be higher at the start, falling off as time progresses. Other models to exist that concider this, however these are much more complicated to use. There are also technical issues when looking to develop models that include these. Ultimately, making such models is still a major challenge.
+	
+	5. Modelling Superinfection (Getting Reinfected Whilst Still Ill)
+
+	In some severe cases, people can catch the same disease again whilst they are yet to recover from the first time they had caught it. This is usually not included within models as it breaks assumptions. Most models will concider each infection as an isolated process - this simplifies the math. We must create models that incorporate reinfection whilst ill, without over-complicating things.
+	
+	6. Building Models that Include Geography or Networks
+
+	In reality, people do not randomly interact with one another - they will interact based on where they live, how and where they travel to, and where they work. There are models that look to include this, but it is difficult to assess how accurate they are, there currently aren’t any reliable methods for comparing to networks models. More realistic models are required that accurately model these spatial effects.
+	
+	7. Studying the Links Between Infectious and Non-Infectious Diseases
+
+	Some infectious will increase the risk of developing an illness that we would concider to be non-infectious, like asthma or cancer. For instance, HPV can cause cervical cancer whilst gut bacteria may play a role in several chronic illnesses. Despite these connections being well established, we rarely find that they are modelled together. Given this, we need to make an effort to develop models that explore how certain infections trigger or worsen other non-infectious diseases.
+	
+	8. Knowing When Deterministic Models Are Misleading
+
+	Even though we may find that deterministic models are easy to work with, the real spread of disease is random and more complex. When working with large populations, deterministic models may provide a reasonable estimation, but for smaller communities, randomness plays a large role, for instance, deterministic models may estimate that the disease is still present within a small community, despite the fact that it has died out. We need to accurately establish when deterministic models are reliable and when they are not.
+	
+	9. Making Better Approximations of Random Models
+
+Some researchers will try to close the gap between stochastics and determinism by using approximations. But these approximations often falter in the most important situations - like when the disease has just started spreading, or when the infection numbers are low. Often it is not feasible to run full random simulations, they are far too computationally demanding and take too long, so these approximations are our only options - so improving them is crucial.
