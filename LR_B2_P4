@@ -1,0 +1,38 @@
+Noakes, 2009, "Mathematical models for assessing the role of airflow on the risk of airborne infection in hospital wards"
+
+Background and Motivation
+
+Airborne transmission is becoming an increasing concern in healthcare due to new pathogens and old pathogens evolving to become resistant to current drugs, global mobility, and patient vulnerability, especially in settings like tuberculosis wards and during disease outbreaks like SARS and influenza. Whilst some disease are traditionally airborne, like TB, other viruses, like norovirus and SARS, have the potential to be transmitted through the air, particularly through droplet nuclei. Hospital ventilation design plays a key role when trying to mitigate such risks, but traditional models like Wells-Riley model oversimplify reality by using the air is perfectly mixed and there is uniform infection risk across the entire space.
+
+Enhancing the Wells-Riley Model
+
+The Wells-Riley model estimates the probability of infection using variables like the number of infectors, ventilation rate, exposure time, and quanta. Whilst the model is useful and well-respected, it has several key limitations:
+
+	1. Disease dynamics: The Wells-Riley model does not incorporate an incubation period or disease progression. This is fine for some viruses like TB, but is not appropriate for SARS or norovirus which both have short incubation periods.
+	2. Small populations: The deterministic nature of the model means that it overlooks stochastic variation - which is particularly relevant in hospital wards.
+	3. Spatial heterogeneity: The standard model assumes that the air is perfectly mixed, this of course overshadows the increased risk when closer to the infector and non-uniform airflow.
+
+Stochastic Zonal Model
+
+Given all of these limitations to the traditional Wells-Riley model, the team developed a stochastic zonal Wells-Riley model, where each zone in a hospital ward is assumed to have internally well-mixed air, but are only partially mixed with neighbouring zones. This idea:
+
+	• Calculates the local concentrations of infectious material by using the airflow in/out of the zones and between the zones.
+	• Simulates infection events probabilistically, whereby the location of each new case and the time by which this new case appears depends on the airflow and the population distribution.
+	• Allows simulations to take place over a period of time using Monte Carlo methods to capture variability within the outcomes.
+
+Results
+
+Simulations using a hypothetical hospital ward layout reveal several key insights:
+
+	• Stochastic variation is greatly significant: This is amplified in smaller populations, random events can cause infection rates to deviate by up to 15% or even more from deterministic predictions.
+	• Proximity matters: This goes without saying, but patients who were in the same bay as the infector had a much higher risk of infection (over 90% in some cases), while those two bays away faced risks under 35%.
+	• Airflow direction is critical: Ventilation strategies that direct air from clean areas to 'dirty' areas greatly reduced cross-bay transmission. In contrast to this, undirected or poorly managed airflow allowed the pathogen to spread between bays.
+	• Fully mixed models underestimate risk: Using basic, traditional models to estimate transmission risk yields values that are less than half true. This has further implications when we interpret the data later and design interventions based on them.
+
+Discussion and Implications
+
+The paper highlights that ignoring spatial and most importantly stochastic factors can result in an underestimation of the risk associated with airborne disease and the measures required to respond to them. Although this enhanced model is still fairly basic, it stills provides a more realistic tool for healthcare design and outbreak planning, particularly ventilation design.
+
+Conclusion
+
+While the original Wells-Riley model can be a useful starting point, enhanced versions are required to provide more meaningful assessments in real-world hospital settings.

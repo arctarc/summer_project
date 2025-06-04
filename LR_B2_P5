@@ -1,0 +1,48 @@
+Foster, 2021, "Estimating COVID-19 exposure in a classroom setting: A comparison between mathematical and numerical models"
+
+This study by Foster et al., aims to compare two different approaches when estimating the risk of airborne COVID-19 (C19) transmission in classrooms: the Wells-Riley model and Computational Fluid Dynamics (CFD). The goal of this study is to evaluate how each assessment methods performs under various ventilation conditions, and to understand their weaknesses and applicability to real-world indoor settings.
+
+Context and Motivation
+
+During the C19 pandemic, the official recognition of airborne transmission, especially in enclosed spaces like classrooms, lead to an increased use of quantitative risk assessment models. The Wells-Riley model is used very widely for such things, given how simple it is and easy to use, but it makes several pronounced assumptions (like the air is perfectly mixed) that will not hold up in real life. In contrast, CFD models simulate highly detailed airflow and aerosol dispersion, but given the level of detail, they are far more complex and computationally expensive.
+
+Methodology
+
+Two different classroom scenarios were simulated for one hour with ten occupants within the classrooms, nine of which were students whilst the remaining one was a teacher. All were wearing surgical masks:
+	1. No ventilation (0 ACH)
+	2. Mechanical ventilation (3.4 ACH) with MERV 11 filtration (72% efficiency)
+
+	• The Wells-Riley Model: Adapted to account for time variations, mask filtration, ventilation rates, and imperfect air mixing.
+	• CFD Model: Used to simulate realistic airflows and aerosol dispersion with both high spatial and temporal resolution. Each participants breathing zone was tracked in order to calculate each individuals infection risks through 90 different potential transmission routes.
+
+Key findings
+
+	1. Agreement in No-Ventilation Scenario
+		• The Wells-Riley model and the average CFD prediction closely matched one another, with only a 6% error.
+		• However, CFD revealed significant variation in infection risks between individuals, ranging from 2.4% to 9.9% depending on their positions and local airflow surrounding them.
+		• Risk did not correlate with proximity to the infector - some of the highest risks were found over 4.5 meters away from the infector.
+		• The above point highlights that airflow, rather than proximity, drive airborne transmission in stagnant air environments.
+	2. Mechanical Ventilation Scenario
+		• Once the HVAC machine was turned on, the differences between the two models grew to 29%, with the Wells-Riley model underestimating the average risk of infection.
+		• CFD revealed that ventilation created more structured but imperfect airflow patterns, like recirculation zones, which created localised zones of higher transmission risk.
+		• Although the overall risk of infection decreased (roughly 2.8% chance of infection on average), the variation was smaller, suggesting that ventilation not only improves air quality, but maintains consistently improved air quality.
+		• Once again, distance was not a good predictor of infection, instead, location relative to the airflow paths were far more important.
+
+Masks and Thermal Plumes
+
+Both models incorporated mask use. However, CFD was also able to capture how an infector exhaled air followed vertical thermal plumes from body heat - this meant that dispersed aerosols would rise rather than spread out horizontally, creating a natural distancing effect. This effect, in combination with mask use, helped reduce the lateral spread of the disease between students.
+
+Limitations of the Wells-Riley Model
+
+	• Assumes perfect, or at least near-perfect mixing, which very often isn’t true in practice.
+	• Fails to capture local airflow features, like eddies(?) or dead-zones(?).
+	• Cannot resolve individual transmission routes, making it less appropriate when diagnosing or preventing super-spreader events.
+	• However, when using it with appropriate mixing factors, the Wells-Riley model can be a useful tool for comparing scenarios or assessing the average risk of infection.
+
+Conclusions and Recommendations
+
+	• CFD gives the user a more valuable and accurate risk assessment for airborne transmission by accounting for airflow and local exposure variations.
+	• However, the Wells-Riley model can still prove useful when estimating infection risk in poorly ventilated environments, and useful when comparing different intervention strategies.
+	• When it comes to well-ventilated spaces, the Wells-Riley model should be adjusted with empirically derived mixing factors to avoid underestimating the risk of infection.
+	• Infection risk depends more on the airflow patterns and the exposure time, rather than proximity to the infector.
+Given this, the use of masks and a HVAC system design are more impactful mitigation strategies than simply keeping the students spaced apart.

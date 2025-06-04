@@ -1,0 +1,23 @@
+Watanabe, 2010, "Development of a Dose-Response Model for SARS Coronavirus"
+
+This study both develops and validates a dose-response model for SARS-CoV (SC), aiming to assess the risk of infection through various different transmission routes, particularly airborne transmission, using animal data as a proxy for human response. The motivation behind this study stems from the 2003 SARS outbreak, which spread quickly and killed in large numbers, but lacked a robust, and generalisable infection model that accounted for environmental factors and non-direct transmission.
+
+Due to both ethical and practical constraints when testing on humans, the author instead opted to using two key animal data sets: one of which involved transgenic mice that were susceptible to SC, whilst the other involved A/J mice infected with MHV-1, a mouse-type coronavirus that is genetically related to SC and known to mimic lung pathology. These models were used to infer the risk of infection in humans - it was assumed that each mouse that ultimately died would represent a symptomatic illness case in humans.
+
+To capture the relationship between the viral load and the probability of infection, the authors compared two models: the exponential model and the beta-Poisson model. While both of the models fit some of the data well, the exponential model ultimately offered a more simple, and sufficiently accurate, representation of SC infectivity - it was consequently chosen for further analysis.
+
+In terms of the results regarding the risk analysis of SC: the model estimated that a dose of 43 plaque-forming units (PFU) lead to a 10% chance of illness (ID10), whilst 280 PFU lead to ID50. Surprisingly, this level of infectivity is comparable to the common cold, suggesting that SC is not inherently a hyper-infectious disease, but rather the severity and transmission routes are what make it dangerous.
+
+A major application of this model was its use for reanalysing the well-documented Amoy Gardens outbreak in Hong Kong. By correlating the reported case numbers with the estimated exposures across the different floors of the apartment block, the authors were then able to infer that the residents likely inhaled doses that were between 16-160 PFU - the exact value depended on their location in the apartment complex. These exposures were facilitated by the faulty sewage system and powerful bathroom fans, which created negative pressure that drew infected air into the apartments - providing further evidence in the science world for the significant role that airborne transmission (via environmental systems) can play.
+
+Although this model is based on animal data (so it may not be considered to be entirely ideal for human comparisons), it is one of the forefront quantitative tools available for SC exposure risk - in fact, the authors greatly argue that such a model is critical for evaluating a possible re-emergence of SARS or related coronavirus.
+
+Strengths:
+	• Provides a quantitative risk model even in the absence of human data.
+	• Showcases the important of indirect transmission routes, such as through the air or sewage systems.
+	• Model outputs offer practical estimates of infective doses, that can aid public health planning.
+	• Validates the models accuracy using epidemiological back-calculation from a real-world outbreak.
+
+Weaknesses:
+	• Study used and is based on animal data, which may not fully reflect human susceptibility or symptom progression.
+Assumes each mice death equates to a single human illness, which may not be an accurate representation.

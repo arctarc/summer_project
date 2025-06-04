@@ -1,0 +1,36 @@
+Edwards, 2024, "The Wells-Riley model revisited: Randomness, heterogeneity, and transient behaviours"
+
+Summary
+
+This paper takes a look back to the traditional Wells-Riley model and extends it. The Wells-Riley model is used to estimate the risk of contracting an airborne disease within an indoor environment. The Wells-Riley model is widely known for being quite deterministic, assuming that the air within the environment is well-mixed, the pathogen concentration remains at a fixed level, the exposure time is also fixed, and all individuals are homogeneous (the same). These major assumptions hinder its accuracy in dynamic or heterogenous scenarios.
+
+Edwards introduces a stochastic reformulation of the Wells-Riley model. Instead of focusing entirely on the average number of infections, he instead builds probability distributions for the number of exposures, allowing for a more realistic interpretation of infection risk. The key innovations that Edwards made was allowing randomness, heterogeneity, and transient behaviours to be modelled.
+
+Three major extensions are introduced to the Wells-Riley model:
+
+	1. Transient Behaviours: The model now accounts for the infection risk that persists in the environment, even after the infectors leave. This is achieved by solving a time-dependant concentration equation for airborne pathogens, showcasing that residual quanta can result in significant infection risk after the departure of the infector.
+	
+	2. Uncertain Duration of Exposure: Recognising that more often than not, the duration of indoor interactions, like having dinner at a restaurant or visiting family in a healthcare setting, is unknown or variable, Edwards models exposure time as a random variable. Using exponential and Erlang distributions, he derives analytical expressions for both per capita infection probability and the distribution of total infections.
+
+	3. Heterogeneous Infectiousness: Instead of assuming that each individual in the environment produces a fixed amount of quanta (are equally infectious), the model treats quanta production as a random variable to reflect real-world variation among infectious individuals due to differences in symptoms, their behaviour and the viral load that they disperse.
+
+The paper showcases these improvements through two case studies: one that assesses the infection risk in hospital settings after a healthcare worker departs, and another evaluating risks across restaurant settings with uncertain dining durations. Both case studies show that ignoring randomness and time dynamics can underestimate the risk of infection, this is especially amplified in small-scale, short-duration, or poorly ventilated scenarios.
+
+Specific Notes
+
+	1. Why deterministic models like the traditional Wells-Riley model fall short
+		○ Oversimplified assumptions: They assume that the air is well-mixed, the pathogen reaches and stays as a steady-state, the interaction/exposure time is fixed, and that every individual is equally susceptible and/or infectious.
+		○ Neglect of transient dynamics: The Wells-Riley model fails to capture how pathogen levels rise or fall over time, especially in the event that the infector leaves.
+		○ Homogeneity: Everyone is treated as having the same biology and behaving in the exact same way, ignoring the existence of super-spreaders or variable vulnerability.
+		○ No uncertainty: The results of the model leave us with mean values, ignoring variability and probability distributions, which limits the models appropriateness when used with small populations or dynamic environments.
+
+	2. Overview of modifications
+		○ Randomness: In this revised version of the model, the exposure times and quanta generation rates are now random variables. This means we can now model infection risk under uncertainty using probability distributions (e.g. Exponential, Erlang).
+		○ Heterogeneity: The model now incorporates variability in infectiousness (quanta production) across each individual by modelling it as a distribution, reflecting the biological and behavioural differences between each individual.
+		○ Time-dependent (transient) effects: Instead of assuming that the pathogen reaches and remains at a fixed-level, the model now tracks how pathogen levels change over time, both in the presence of the infector and when the infector is no longer there.
+
+	3. Implications
+		○ Improved realism: These extensions now mean that the model can more accurately estimate the infection risk in real-world settings.
+		○ Captures post-departure risk: This is especially important in hospitals and shared bathrooms, where susceptibility remains even after the infector is gone.
+		○ Better fit for small or dynamic populations: In such given scenarios, the inherent randomness of each individual becomes significant - this is where deterministic models underperform.
+Design of mitigation strategies: This study highlights the need for ventilation, masks, or scheduling protocols based on the risk of infection beyond the simple presence of the infector.

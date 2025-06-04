@@ -1,0 +1,24 @@
+Riley, 1978, "Airborne spread of measles in a suburban elementary school"
+
+In this ground-breaking 1978 study Riley and his team analyse a sudden measles outbreak in a modern elementary school near Rochester, New York, during the Spring of 1974. The reason this outbreak attracted so much attention, was that despite the 97% vaccination rate among students, it was still highly contagious. Most of these vaccinated students had been vaccinated before their first birthday, which was then later identified as a potential reason for the reduced effectiveness of these vaccines.
+
+The outbreak started with a girl in the second-grade, she played the role of the index case - infecting 28 other children across 14 different classrooms. At the height of the epidemic, 60 children had become infected with measles, before the infectivity naturally subsided. The purpose of this study was to investigate the underlying dynamics behind measles transmission within the school, using both epidemiologic tracking and a quantitative mathematical model.
+
+The three main sources of exposure were considered to be:
+	1. Classroom exposure - direct contact within the same room.
+	2. Airborne exposure via recirculated air - contaminated air was recirculated via the schools shared ventilation systems.
+	3. School bus exposure - exposure only lasted a short period of time, but contact was potentially intense.
+
+The school used two ventilation systems: a larger system that served the main building and a smaller system for a newer wing of the school. These systems would recirculated the air, but with limited filtration efficiency - only 12% of respirable particles were filtered in the main building whilst this number only rose to 30% in the newer wing. The extent of this air recirculation was also affected by the temperature outdoors: on colder days, more air was recirculated with less fresh air intake, creating conditions that boosted airborne disease transmission.
+
+Consistent with earlier studies and the knowledge base at the time, researchers assumed that the spread of measles occurred exclusively through droplet nuclei. The researchers used a mathematical model that was built on the concept of 'quanta', this is a single unit of airborne infectious dose. From the epidemic data, it was estimated that the index case was estimated to have a quanta of 93 per minute - this is incredibly high and would suggest that the index case was extremely infectious.
+
+Using their model, the team showcased how airborne transmission, aided by the school's ventilation system, likely played a dominant role. Specifically, children who weren't members of the index case's classroom, but still within the same ventilation zone, were infected - heavily implicating recirculated air. Bus exposure was shown to be a secondary, but still notable, transmission route.
+
+Interestingly, the study found that children infected during the first generation were ten times less infectious than the index case herself. This difference in infectivity explains the epidemic's three-generation pattern and the way by which it eventually 'went away'. The final few cases of the epidemic were potentially regarded as the fourth generation of transmission.
+
+The study also investigated attack rates in relation to vaccination status and the age by which the vaccinated were vaccinated. Children who vaccinated after the age of one had the lowest attack rate (1.9%), whereas those who were vaccinated before the age of one had a much higher attack rate (27%). This supports other evidences within the sciences that early vaccination may be less effective due to interference by maternal antibodies.
+
+Drawing on earlier theoretical work carried out by Wells, Riley devised a mathematical model that could estimate the probability of a susceptible individual inhaling an infectious dose, or quantum, of the airborne measles virus. In this context, a quantum is used to describe the amount of infectious material required to infect 63% of exposed individuals, assuming a Poisson distribution of exposure events. The model makes several assumptions that are later 'corrected' in future iterations. The model assumes that the airborne particles are randomly and evenly distributed within an indoor environment, and that infection solely takes place due to inhalation of these particles.
+
+The Wells-Riley equation can be found online or in my presentation. The model was what was used to infer that the index cased released 93 quanta per minute, and that the second generation were ten times less infectious that the case zero.

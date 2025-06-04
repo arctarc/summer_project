@@ -1,0 +1,19 @@
+Almeida, 2018, "Analysis of a fractional SEIR model with treatment"
+
+This paper both introduces and analyses a fractional SEIR model to simulate the spread of infectious diseases, accounting for treatments and measures. The SEIR model is a well-known extension of the SIR model, adding an E (Exposed) compartment. This additional compartment to the SIR model adds a period of time after a infection, but before the individual becomes infectious to other people - which is accurate to many real life diseases.
+
+The SEIR model divides the population into four groups:
+	• S (Susceptible): Individuals who can catch the disease.
+	• E (Exposed): Individuals who have become infected, but are not yet infectious.
+	• I (Infectious): Those that are capable of transmitting the disease and are of course infectious to others.
+	• R (Recovered): Now immune after recovering from the virus.
+
+In this model, individuals can receive treatment in order to reduce the number of infections. The model assumes that the total population remains mostly the same.
+
+What makes this specific study so distinct when compared to others, is its use of fractional calculus, in particular, Caputo fractional derivatives, to model the population and infection dynamics. Unlike traditional derivatives, these fractional derivatives account for memory effects and are also non-local, meaning the current state of the system depends on its entire history. This makes the SEIR model much more appropriate when modelling biological processes, including disease transmission - such processes will more often than not involve memory effects.
+
+Two types of equilibrium states are identified:
+	1. Disease-free equilibrium: no one is infected.
+	2. Endemic equilibrium: the disease persists among the population.
+
+The existence of the endemic equilibrium depends on a crucial threshold called the 'basic reproduction number' (R0) - this value represents how many new infectious a single case will generate in a population that is fully susceptible. If the R0 value is less than one, then the disease will eventually die out, however if the R0 value is greater than one, then the disease will persist and continue to spread.
