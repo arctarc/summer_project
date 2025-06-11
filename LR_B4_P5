@@ -1,0 +1,44 @@
+Dupont, 2022, "Publicly Available, Interactive Web-Based Tools to Support Advance Care Planning: Systematic Review"
+
+This systematic review by Dupont and his team investigate various publicly available interactive web-based tools that support advance care planning (ACP) for the general public. ACP can be thought of as the process whereby individuals can reflect on, communicate and document their preferences for future medical care. Whilst this isn't related to assessing the risk of airborne infection, this review should give us an idea about what the public prefer from these web-based healthcare tools.
+
+Objectives and Methods
+
+The study aimed to;
+
+	1. Characterise the available interactive web-based ACP tools.
+	2. Analyse how ACP is addressed in these tools. (Not relevant to us, but must be read as part of the paper).
+	3. Evaluate their readability, content quality, and whether or not hey have been studied in research. (This is where we should be able to draw ideas from).
+
+Following for different strategies tailored to 'gray literature', including web-searches, app store searches, and expert consultation, the authors identified 30 eligible tools from an initial pool of 436 tools. Tools were included within the final pool if they were web-based, interactive, available to the public, and intended for use by the general population. Researchers assessed the tools' functionalities, content elements based on 14 ACP key components, readability using CEFR levels, quality via the QUEST framework, and evaluated evidence using established hierarchies.
+
+Key Findings
+
+Characteristics and Development
+Most tools (80%) targeted the general population, and half were basic websites, whilst others were either apps or login-enabled portals. Tools were primarily from the US (40%) and mostly non-profit-led. However, only seven of the tools disclosed their development process, and just a mere three involved end-users - regardless of the fact that current literature emphasises the importance of user-centred design in Digital Health.
+Reading this, I would assume we should follow the trend, by not introducing some log-in system or become a non-web-based app, whilst selling ourselves to the US consumer somehow.
+
+Functionalities
+Most of the tools (90%) were free and allowed the user to make their own inputs (97%). Nearly all of the apps followed a predetermined route, requiring the users to go through a pre-set sequence of questions. Some tools (17%) tailored their path of questioning and content to the users inputs, whilst only one provided dynamic feedback. The presence of additional features varied among the apps, such as a save-and-return option, print/export functions, and the use of videos and/or text-to-speech.
+Of course, our app will be free and the users will have to make their own inputs. I could try to tailor the sequence of questioning, but I'm not quite sure how that would work. I will attempt to give the user bespoke mitigation advice based on their factors contributing to their infection risk. Print/export functions would be good to include, I intend to include videos, and text-to-speech would be a great feature to include.
+
+ACP Content
+All of the tools addressed at least seven of the 14 key ACP elements, whilst six of the tools covered all of these ACP elements. Most encouraged the user to reflect on values (93%), future care preferences (97%), and discussions with the users family or other professionals (90%). Roughly two-thirds of the app included the option for the user to document their preferences, appoint a proxy for themselves, or generate and share a formal directive. Few tools (40%) explained the legal context of ACP, and only half addressed readiness or timing.
+Whilst ACP does not apply to our project. I think mentioning 'legal context' may be a good idea in our case - we could mention the accuracy of our tools and cite some papers we have read.
+
+Readability and Quality
+The readability of all the apps was generally quite good - 83% of them met the recommended B1 CEFR level or lower. However, the quality of the apps varied quite widely. QUEST scores ranged from 11 to 28 (out of 28), with only six of the tools scoring more than equal to 20, and just one (PREPARE) achieving the maximum available score. Common shortcomings among all the apps included a lack of source references, unclear authorship, and outdated content.
+I need to take a look at what CEFR and QUEST are, checking if they would apply to our project and see how I can achieve good scores in either metric. I need to ensure I include a page with my references, make the authorship clear and keep the app up to date, or make the intention to do so clear.
+
+Evaluation and Evidence
+Only five of the tools (16%) had been evaluated in peer-reviewed studies. Of these, three of the tools (PREPARE, Plan Your Life Span, and The Letter project) had been tested via randomised controlled trials. Evaluations of these apps typically addressed their usability, readability, and in some cases, their effectiveness. PREPARE stood out as the only tool to rigorously test all of these factors.
+Not sure if I can become peer-reviewed, but I can test the effectiveness of the app against real-world outbreaks like the Skagit Valley Chorale Outbreak. I could have some others give their opinion on the tools usability and readability, though I'm unsure how academically valuable it would be.
+
+Discussion
+
+Despite the variation that we find among the tools in terms of their approach and academic scope, there are several issues that have consistently emerged among all of the apps. Most of the web-based applications all followed a linear sequence of questioning that may not accommodate individual readiness or preferences. Although they often encouraged users to explore the values and even discuss their results with others, only a handful of the tools provided evidence-based or regularly updated information. The involvement of end users in the design were rare, limiting in relevance and usability.
+We need to try and tailor the route of questioning to the user, or at the very least give some bespoke mitigation advice. We will of course perform an end-user search, but we need to make sure the information is of course relevant.
+
+Conclusions
+
+A wide variety of ACP tools exist online, but many lack evidence-based content, user involvement in design, and rigorous evaluation. In the future, when designing such tools, developers should involve the end users as early as possible, use a validated framework (Wells-Riley model?), update the content within their tool regularly, and publish usability and effectiveness evaluations.

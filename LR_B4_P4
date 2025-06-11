@@ -1,0 +1,59 @@
+Harmon, 2021, "The Facility Infection Risk Estimator™: A web application tool for comparing indoor risk mitigation strategies by estimating airborne transmission risk"
+
+This paper presents the development, methodology, and the validation of the 'Facility Infection Risk Estimator', this is a web-based tool that is designed to assess and compare the risks of contracting various airborne diseases, particularly SARS-CoV-2 and influenza, in indoor environments. This paper, and the creation of this tool, is in response to the COVID-19 (C19) driven demand for accessible tools to assess the effectiveness of various engineering and behavioural mitigation strategies, such as ventilation, filtration, mask usage, and UVGI - regarding their ability to remove viral aerosol's and to limit the probability of infection.
+
+Model Overview
+
+At the core of the model, the tool, like many others, uses an enhanced version of the Wells-Riley model - this enhanced model includes multiple removal and inactivation mechanisms;
+
+	• Ventilation (dilution of viral particles),
+	• Filtration (both building HVAC systems and portable filtration devices),
+	• Settling (gravitational removal of droplets),
+	• Mask usage (source control and protection),
+	• Relative humidity (environment induced viral inactivation),
+	• Upper room ultraviolet germicidal irradiation (UVGI),
+	• Vaccination.
+
+Users will input parameters like room volume, the activity levels within the room, the type of expiration that is taking place (e.g., singing, breathing, talking, coughing), the number of infected individuals, the duration of the interactions, mask usage, and ventilation/filtration specs. The model will then calculate the probability of infection using a quanta-based approach, whereby the 'quantum of infection' represents the infectious dose likely to cause infection in one other person. Quanta generation rates will vary based on the viral load within a person (whether they are a low, medium, or high shedder), the type of activity, and the pathogen itself.
+
+Empirical Basis
+
+The model integrates the droplet size distribution and pulmonary ventilation data, adjusting for the levels of activity and expiratory mode. Extensive data tables support the assumptions that are made, these include the quantum generation for both viruses that were particularly being taken a look at and the filtration efficiencies of fitted masks.
+
+Validation
+
+Two real-world superspreading events were modelled in order to validate the accuracy of this model:
+
+	1. Skagit Valley Chorale (Washington, USA):
+	• 61 singers and one infected individual. Ended with 53 subsequent infections.
+	• The model predicted infections with normalised errors between -18.4% and +9.7% depending on assumptions for ventilation and RH.
+	• The most accurate prediction made by the model showed an error between -6.9% and -1.3%.
+
+	2. Guangzhou Restaurant (China):
+	• Started with one infected diner, ended with nine other infected diners in a poorly ventilated dining zone.
+	• The whole-room and zone-specific models were analysed.
+	• The zone-specific model aligned better to real-life findings due to the assumption of well-mixed air.
+	• Errors in predictions ranged from -6.6% to -4.8%.
+
+Limitations
+
+The model is specifically designed to be used for far-field aerosol transmission, assuming a well-mixed indoor environment and an even distribution of infectious aerosols, making it less effective when tackling near-field exposures or complex airflow patterns. Not only these, but it also:
+
+	• Assumes a constant temperature of 20-24.4 degrees Celsius.
+	• Does not currently differentiate between infected individuals.
+	• Uses an average estimation for quanta generation and vaccination effectiveness.
+	• Doesn't yet handle reinfection immunity or multiple SARS-CoV-2 variants.
+
+Conclusion
+
+Despite its limited applicability, and assumptions, the Facility Infection Risk Estimator provides us with a practical and reasonably accurate tool for assessing infection risk within an indoor environment and comparing various mitigation strategies.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Details of citation/Link to resource: https://www.branchpattern.com/facility-infection-risk-estimator
+
+The tool is not hosted on its own personal website, instead, it is hosted through BranchPattern. I'm not the biggest fan of this hosting as the hosts place advertisements for their own website across the top of the tools page.
+Early on, the website is designed quite well - they've got some impressive animations, everything is laid out well and clearly. They have also linked supporting papers and videos.
+Then you get to the actual tool itself. There is a lot of parameters to get through, whilst each element is kept simple and clear, and explained with information pop-ups, the list seems excessively long.
+I'm quite impressed by the models output. They use numbers and graphs as the assessments output and they assess multiple factors including adult and child risk, aerosol removal efficiency and hypothetical R value.
+Overall, a very impressive tool, but there are probably too many parameters for the users, and the publication journal isn't the most influential or well-respected.

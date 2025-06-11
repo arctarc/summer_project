@@ -1,0 +1,26 @@
+Albettar, 2022, "A real-time web tool for monitoring and mitigating indoor airborne COVID-19 transmission risks at city scale"
+
+This paper covers the development and evaluation of 'CityRPI', an interactive web-based tool designed to assess the risk of indoor airborne transmission of COVID-19 (C19) and mitigate this risk. Understanding that C19 primarily spreads through the air in indoor spaces, the developers built a real-time model that combines an infection risk assessment and energy consumption analysis, focusing on various building archetypes in North America.
+
+In the engine room of CityRPI, we find a modified version of the Wells-Riley model - their enhanced version has the ability to calculate both conditional and absolute probabilities of infection. The model uses information regarding breathing rate, quanta emission, exposure time, occupancy, occupancy density, and ventilation. As we have touched upon, the novel aspect of this web-tool is its integration with CityBEM, a building energy model, which allows the tool to estimate the energy cost associated with various mitigation strategies.
+
+A major selling point of this studies work is their use of a comprehensive building archetype library - encompassing 29 different types of buildings - to estimate the infection risk and energy demands across an entire city when needed. Each archetype includes features like ventilation rates, occupancy, stay time, and room volume - this information was collected from standards such as ASHRAE 62.1 and other publicly available datasets. This comprehensive database allows the CityRPI tool to estimate transmission risks at large scales, enabling both urban-level analysis and individual analysis for more personal results.
+
+In order to validate the models accuracy, the authors were able to successfully replicate the outcomes of the well-documented Skagit Valley Chorale outbreak.
+
+Through running simulations of the City of Montreal, CityRPI assessed the effectiveness of employing six common mitigation strategies: mask-wearing, reduced exposure time, lower occupancy, increased outdoor air ventilation, upgraded duct filters, and the use of portable air cleaners.
+Simulations run during study revealed that mask-wearing and halving exposure time were the most effective mitigation strategies, typically reducing the risk of infection by ~60%. In contrast, doubling the outdoor air ventilation, a traditional mitigation technique, proved to be the least effective whilst also having high energy demands associated with it, especially during the winter months. Upgrading duct filters or using air filters were reasonably effective whilst having minimal energy costs.
+
+The study demonstrated that infection risk is highly related to the type of building in question. For example, buildings like schools, offices, and day-cares were quite vulnerable - this is down to a large number of occupants within them, and long term stay within the buildings by the occupants. The absolute infection risk in most buildings exceeded the safe levels (0.1%) even when the building used standard ventilation practices and kept to tolerable occupancy conditions - highlighting the inadequacy of the current building standards when tackling the spread of airborne disease.
+
+The authors do understand that whilst all mitigation strategies will help in their own way, building-specific optimisations are required. They also urge us to take infection risk estimates with a pinch of salts, these things carry uncertainty, especially when viruses are constantly evolving and a lot of these models make unrealistic assumptions.
+
+In conclusion, CityRPI is a tool for public engagement and planning, offering accessible, and data-driven insights into airborne infection risks and mitigation trade-offs across a variety of indoor environments. It enables evidence-based decision-making at both a personal level and the policy-making level.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Details of citation/Link to resource: https://concordia-cityrpi.web.app
+
+As soon as you open the web-page, it is a complete mess, there are pop-ups all over the screen and it isn't immediately clear what to click in order to remove the pop-ups. The button that you do have to click in order to remove the pop-ups has you agreeing to some unknown agreement.
+The website is almost designed well, it has a menu across the top, however there are two drop-down menus either side of the screen, two would seem to me as being unnecessary, especially when the left-hand menu is empty. There is also a random image of a model room in the corner of the screen, blocking some of the menu options.
+Of the interactive buttons there are, none seem to do anything, it's almost as though the website is no longer active or functioning - an abandoned project. Ultimately, nothing to take away aside from their use of menus.
